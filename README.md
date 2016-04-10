@@ -1,6 +1,6 @@
 # MetaPi
 Compile-Time Pi via Template Meta-Programming.
-This library offers a C++11 template meta-programming implementation of the Bailey–Borwein–Plouffe formula, used to extract hexadecimal fractional digits of pi.
+This library offers a C++11 template meta-programming implementation of the Bailey–Borwein–Plouffe formula, used to extract hexadecimal fractional digits of pi. See sample.cpp for usage examples.
 
 The repository includes MSVS solution files, although it should be trival to compile this library in any other C++11 compliant compiler.
 To enable compile-time constexpr evaluation, you must compile with optimizations enabled (e.g., -O2).
